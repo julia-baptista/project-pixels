@@ -1,0 +1,58 @@
+.text-center {
+  text-align: center;
+}
+
+#color-palette,  #title{
+  text-align: center;
+}
+
+#color-palette .color {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+#color-palette .color:nth-child(1) {
+  background-color: black;
+}
+
+#color-palette .color:nth-child(2) {
+  background-color: red;
+}
+
+#color-palette .color:nth-child(3) {
+  background-color: blue;
+}
+
+#color-palette .color:nth-child(4) {
+  background-color: green;
+}
+
+#pixel-board {
+  /* width: 200px; */
+  /* height: 200px; */
+  display: inline-block;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+#pixel-board .line {
+  text-align: center;
+  height: 40px;
+}
+
+#pixel-board .pixel {
+  background-color: white;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#pixel-board .pixel::after {
+  clear: both;
+}
+
+
